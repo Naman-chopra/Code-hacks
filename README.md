@@ -22,7 +22,15 @@ cat file.extension
 touch file.extension
 
 ```
+The difference between Garuda and ubuntu in most of the operations is that instead of using the apt install, we use 
+``` console
+sudo pacman -Sy "package name"
+```
+
 Soon I'll publish the alias-user-customization codes that will make your CLI commands (generally much much longer than this) easier to use.
+
+
+
 ![windows](/assets/windows.jpeg)
 
 
