@@ -12,7 +12,13 @@ I currently use 3 OSes, namely Garuda(Arch based), Ubuntu 22.04 LTS, and the use
 
 Well, there is no particular reason why I use three operating systems, it's just that I've configured cuda and related DL libraries on Ubuntu and windows is just for using office and gaming. Garuda is for the time when I need to focus on my work.
 ## Some Important Commands
-![ubuntu](/assets/ubuntu.webp)![garuda](/assets/garuda.webp)
+
+<p float="left">
+  <img src="/assets/ubuntu.webp" width=50%/>
+  <img src="/assets/garuda.webp" width=50%/>
+</p>
+
+
  For both the linux based distros, some commands that I assume you know are:
 ``` code
 sudo apt install "package-name"
