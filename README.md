@@ -31,7 +31,7 @@ Soon I'll publish the alias-user-customization codes that will make your CLI com
 
 
 
-![windows](/assets/windows.jpeg)
+
 
 
 
