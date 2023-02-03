@@ -14,8 +14,8 @@ Well, there is no particular reason why I use three operating systems, it's just
 ## Some Important Commands
 
 <p float="left">
-  <img src="/assets/ubuntu.webp" width=50%/>
-  <img src="/assets/garuda.webp" width=50%/>
+  <img src="/assets/ubuntu.webp" width="400"/>
+  <img src="/assets/garuda.webp" width="400"/>
 </p>
 
 
