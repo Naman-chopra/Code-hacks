@@ -18,13 +18,13 @@ All the partitions with a `/run` prefix are mounted as separate drives though th
 
 ## Identify the *boot* partition:
 It is actually visible which partition is the boot partition, in case it is not, just launch `gparted` and see the name of the partition that is in FAT32 formatting and wouldn't be greater that 500M. In my case it is `/dev/sdb2/`
-![gparted_boot](../../assets/gparted_boot.png)
+![gparted_boot](../../../assets/gparted_boot.png)
 ## Identify where everything is installed:
 These will be the ones with the `/root` and `/home` flags. In my case, root and home flags are on same partition so I need to copy only this partition. In case these would've been on different partitions I would've had to copy them both.
 ## Let's get it done without
 Now in gparted, navigate to your target disk and make an unallocated space >= to the total of the boot, home and root partitions.
 It'll look something like this:
-![gparted_unallocated](../../assets/gparted_unallocated.png)
+![gparted_unallocated](../../../assets/gparted_unallocated.png)
 Now right click on the greyed out space and then click on `New partition`. Make a partition of 500M of FAT32 type and note its name. We've created a `boot` partition on the target disk where the original boot partition will be cloned. Do the same for the `home` and the `root` partitions. Now that you have the names of these partitions and the source drive, we're almost done.
 
 <p float="center">
