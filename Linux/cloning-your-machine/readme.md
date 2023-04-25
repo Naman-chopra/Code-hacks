@@ -29,7 +29,9 @@ sudo pacman -S gparted
 ```
 Just to verify, launch gparted either from the terminal or the app launcher. It should look something like this:
 ![gparted_home](/assets/gparted_home.png)
+##
 The drives attached can be seen by clicking the top right drop down menu
+##
 ![gparted_dropdown](/assets/gparted_dropdown.png)
 
 ##
