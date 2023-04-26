@@ -22,24 +22,32 @@ Once you've found the bashrc, type the code below into the terminal
 ``` console
 sudo gedit ~/.bashrc
 ```
-A new graphical text editor window would open up. Now scroll to the bottom of this window and create your aliases.
-here we'll be creating the alias for launching a jupyter notebook that doesn't open up a browser window.
+A new graphical text editor window would open up. Suppose we want to create alias for the `sudo apt update && sudo apt upgrade` command. This command updates the system and it's recommended to run this command on every login. But who's gonna type so much as sson as they log in?? Coming back to where we were, scroll to the bottom of the gedit window and type:
+```console
+alias update='sudo apt update && sudo apt upgrade'
+```
+Once you're done typing, hit `ctrl+s` and close the window. Now to make the shell recognise the aliases, type `source ~/.bashrc` in the terminal, and check whether the alias is working by typing `update` in the terminal. Voila!!
+
+##
+
+## **An actual use case of alias**
+Here we'll be creating the alias for launching a jupyter notebook that doesn't open up a browser window.
 
 The original command to launch a notebook like this is 
 ``` console
 jupyter-notebook --no-browser
 ```
-Now imagine typing this command everytime to launch a jupyter server........
+Imagine typing this command everytime to launch a jupyter server.. *(SIGHS IN STRESS)*
 
 
-Now you have the gedit window opened. on the bottom of the window type:
+Now that you have the gedit window opened, scroll to the bottom of this window and create your aliases on the bottom of the window by typing:
 ``` console
 alias jnb='jupyter-notebook --no-browser'
 ```
+
 Save the changes by hitting `ctrl+s` and then close the window (press `ctrl+w` twice).
 
-Now to make the shell recognise the aliases, type `source ~/.bashrc` in the terminal.
-To check if the alias is working, type `jnb` (the alias we just assigned) in the terminal and kaboomm the server should fire up!!
+To make the shell recognise the aliases, type `source ~/.bashrc` in the terminal and to check if the alias is working, type `jnb` (the alias we just assigned) in the terminal and kaboomm the server should fire up!!
 
 I'll be attaching a text file that contains the aliases that I tend to use often and might give some idea to you where you could use them.
 `Note: The glut alias is a little advanced for beginners so just hmu if you have any queries`
