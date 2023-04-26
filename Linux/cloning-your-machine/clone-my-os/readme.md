@@ -24,18 +24,17 @@ These will be the ones with the `/root` and `/home` flags. In my case, root and 
 ## Let's get it done without
 Now in gparted, navigate to your target disk and make an unallocated space >= to the total of the boot, home and root partitions.
 It'll look something like this:
+##
 ![gparted_unallocated](../../../assets/gparted_unallocated.png)
+##
 Now right click on the greyed out space and then click on `New partition`. Make a partition of 500M of FAT32 type and note its name. We've created a `boot` partition on the target disk where the original boot partition will be cloned. Do the same for the `home` and the `root` partitions. Now that you have the names of these partitions and the source drive, we're almost done.
 
-<p float="center">
-  <img src="../../assets/gparted_newpart.png" width="400"/>
-  <img src="../../assets/gparted_fat32.png" width="400"/>
-</p>
+
 ##
 
 <div style="text-align:center">
-  <img src="../../assets/gparted_newpart.png" style="display:inline-block;width:45%">
-  <img src="../../assets/gparted_fat32.png" style="display:inline-block;width:45%">
+  <img src="../../../assets/gparted_newpart.png" style="display:inline-block;width:45%">
+  <img src="../../../assets/gparted_fat32.png" style="display:inline-block;width:45%">
 </div>
 
 
