@@ -31,6 +31,12 @@ Now right click on the greyed out space and then click on `New partition`. Make 
   <img src="../../assets/gparted_newpart.png" width="400"/>
   <img src="../../assets/gparted_fat32.png" width="400"/>
 </p>
+##
+
+<div style="text-align:center">
+  <img src="../../assets/gparted_newpart.png" style="display:inline-block;width:45%">
+  <img src="../../assets/gparted_fat32.png" style="display:inline-block;width:45%">
+</div>
 
 
 ### Terminal time
