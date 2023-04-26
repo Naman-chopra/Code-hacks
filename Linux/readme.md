@@ -5,6 +5,7 @@ Well, most of these commands would be known to advanced users, but this repo tar
   <img src="/assets/second.jpg" style="display:inline-block;width:60%">
 </div>
 ##
+
 ## Shell Customization Using Aliases
 This folder contains the commands that would ease your shell usage using multiple implementations of command line tools.
 
