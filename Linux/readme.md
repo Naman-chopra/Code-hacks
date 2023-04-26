@@ -1,6 +1,10 @@
 # Welcome Linux Users!!
 Well, most of these commands would be known to advanced users, but this repo targets new linux user base. The list of the hacks that this repo contains is given below for convenient navigation.
-![Linux logo](/assets/second.jpg)
+##
+<div style="text-align:center">
+  <img src="/assets/second.jpg" style="display:inline-block;width:60%">
+</div>
+##
 ## Shell Customization Using Aliases
 This folder contains the commands that would ease your shell usage using multiple implementations of command line tools.
 
@@ -8,9 +12,12 @@ This folder contains the commands that would ease your shell usage using multipl
 Extensions that I use and personally think that ease my use of linux commands.
 This is a short one, I'll just give the names of these extensions, they're wuite self explanatory.
 First of run `sudo apt install gnome-shell-extension-manager` to install the utility. Once it's done, isntall the following extensions:
-![extensions](/assets/extensions.png)
+##
+<div style="text-align:center">
+  <img src="/assets/extensions.png" style="display:inline-block;width:60%">
+</div>
 
-
+##
 ## Clone your drives without 3rd party software
 Easiest way to clone your drives using some simple linux commands. Vast areas of use like direct cloning of your OS (Windows OR Linux)
 
