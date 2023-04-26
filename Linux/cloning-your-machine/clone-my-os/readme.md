@@ -21,7 +21,7 @@ It is actually visible which partition is the boot partition, in case it is not,
 ![gparted_boot](../../../assets/gparted_boot.png)
 ## Identify where everything is installed:
 These will be the ones with the `/root` and `/home` flags. In my case, root and home flags are on same partition so I need to copy only this partition. In case these would've been on different partitions I would've had to copy them both.
-## Let's get it done without
+## Let's get it done with
 Now in gparted, navigate to your target disk and make an unallocated space >= to the total of the boot, home and root partitions.
 It'll look something like this:
 ##
